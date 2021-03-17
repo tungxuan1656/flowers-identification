@@ -1,0 +1,4 @@
+keras == 2.3.1
+flask == 1.1.2
+python-dotenv
+pillow
