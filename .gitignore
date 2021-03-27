@@ -3,4 +3,6 @@ env
 __pycache__/
 pyrightconfig.json
 .DS_Store
-*/logs/*
+**/logs/**
+ai/dataset/*.zip
+ai/dataset/17flowers/**
