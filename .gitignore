@@ -6,3 +6,4 @@ pyrightconfig.json
 **/logs/**
 ai/dataset/*.zip
 ai/dataset/17flowers/**
+**/17flowers_weights.h5
