@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<body>
+		{% if class_names %}
+		<div>Các loại hoa được nhận diện</div>
+		<ul>
+			{% for name in class_names %}
+			<li>{{ name }}</li>
+			{% endfor %}
+		</ul>
+		{% endif %}
 		<form action="{{ url_for('api.flowers_identification') }}" method="post" enctype="multipart/form-data">
 			Select image to upload:
 			<input type="file" name="file" id="file" />

@@ -46,6 +46,6 @@ if __name__ == '__main__':
 
     img = load_image('test.jpg')
 
-    result = model.predict(img)
+    result = prediction(model, 'test.jpg')
     print(result)
     pass
